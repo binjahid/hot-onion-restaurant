@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 18%;
+  background-color: rgb(199, 195, 179);
+  padding: 15px 50px;
+}
+.header-icon {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 7px;
+}
+.img-container img {
+  width: 20%;
+}
+.nav-container .signup,
+.login {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 110px;
+  border-radius: 15px;
+  font-size: 15px;
+  color: white;
+}
+.signup {
+  background-color: #ea2027;
+}
+.nav-container .login {
+  background-color: rgb(199, 195, 179);
+  transition: 0.5s;
+}
+.login:hover {
+  background-color: #ea2027;
+}

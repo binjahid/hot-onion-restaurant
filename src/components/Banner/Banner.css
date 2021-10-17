@@ -1,0 +1,31 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/banner/bannerbackground.png");
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+p {
+  font-size: 35px;
+  font-weight: 700;
+}
+#banner-search-input {
+  border: 0;
+  width: 400px;
+  outline: none;
+  padding: 11px 30px;
+  border: 1px solid #f91944;
+  border-radius: 50px;
+}
+.sarch-btn {
+  position: relative;
+  border: none;
+  color: white;
+  background-color: #ea2027;
+  padding: 12px 30px;
+  border-radius: 50px;
+  right: 40px;
+}
